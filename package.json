@@ -1,7 +1,7 @@
 {
   "name": "common_response_lib",
   "version": "1.0.0",
-  "description": "npm package for common response pattern for an api",
+  "description": "NPM package for common response pattern for an API",
   "author": "Sneha Agarwal<snehaagarwal625@gmail.com>",
   "private": true,
   "license": "UNLICENSED",
@@ -31,7 +31,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nestjsplus/nestjs-package-starter"
+    "url": "https://github.com/snehaagarwal625/common_response_lib"  
   },
   "dependencies": {
     "@nestjs/common": "^7.0.0",
