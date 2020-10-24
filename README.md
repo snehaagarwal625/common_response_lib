@@ -41,6 +41,8 @@ export class AppService {
 }
 </code>
 </li>
-<ul>
+</ul>
+
+
 <h1>Stay in touch</h1>
 <p>Author: snehaagarwal625@gmail.com</p>
