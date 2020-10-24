@@ -22,7 +22,7 @@ a. Request object of the API.
 b. Error received from the API.<div>
 <div><h5>OUTPUT:</h5></div>
 </li>
-<ul>
+</ul>
 <h1>How to use?</h1>
 <h5>Installation</h5>
 npm i common_response_lib
@@ -32,14 +32,14 @@ npm i common_response_lib
 import { ResponseHandlerService } from 'common-response_lib';</li>
 
 <li>Code Implementation Example for success response
-<code>@Injectable()
+<div><code>@Injectable()
 export class AppService {
   constructor(private responseService: ResponseHandlerService) { }
   getHello(req): any {
      return this.responseService.formSuccessResponse('Hello',req, 0);
   }
 }
-</code>
+</code></div>
 </li>
 </ul>
 
