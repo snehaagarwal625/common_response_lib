@@ -13,14 +13,54 @@ It requires 3 inputs to be passed in this method as mentioned below:
 a. Response of the API of type any.
 b. Request object of the API
 c. Total number of records of our response of type number.</div>
-<div><h5>OUTPUT:</h5></div>
+<div><h5>OUTPUT:</h5>
+<code>
+{
+  "metadata": {
+    "context": {
+      "success": true,
+      "status": 200,
+      // http status code taken from the answer 
+      "message": "human readable message associated to the status"
+    },
+    "links": {
+      "self": "" // URI used for this call
+    }
+  },
+  "results": [
+    "main object": {
+      "object 1": {....
+      },
+      "object 2": {....
+      },
+    }
+  ]
+}
+</code>
+</div>
 </li>
 <li>formErrorResponse
 <div><h5>INPUT:</h5>
 It requires 2 inputs to be passed in this method as mentioned below:
 a. Request object of the API.
 b. Error received from the API.<div>
-<div><h5>OUTPUT:</h5></div>
+<div><h5>OUTPUT:</h5>
+<code>
+{
+  "metadata": {
+    "context": {
+      "success": false,
+      "status": 400, // Could be either 400, or 401, or 403, or 404, or 405, or 408, or 580,
+      "message": "human readable message associated to the status",
+    },
+    "links": {
+      "self": "api.core-elec.eu.airbus.corp/fin/v1/A320/normal-installation/ci", // URI used for this call }
+    }
+  },
+  "results": [] // empty array
+}
+</code>
+</div>
 </li>
 </ul>
 <h1>How to use?</h1>
