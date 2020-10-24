@@ -1,6 +1,6 @@
 {
   "name": "common_response_lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NPM package for common response pattern for an API",
   "author": "Sneha Agarwal<snehaagarwal625@gmail.com>",
   "private": false,

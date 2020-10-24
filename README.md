@@ -54,7 +54,7 @@ b. Error received from the API.<div>
       "message": "human readable message associated to the status",
     },
     "links": {
-      "self": "api.core-elec.eu.airbus.corp/fin/v1/A320/normal-installation/ci", // URI used for this call }
+      "self": "", // URI used for this call }
     }
   },
   "results": [] // empty array
