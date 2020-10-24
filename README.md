@@ -14,7 +14,7 @@ a. Response of the API of type any.
 b. Request object of the API
 c. Total number of records of our response of type number.</div>
 <div><h5>OUTPUT:</h5>
-<script>
+<code>
 {
   "metadata": {
     "context": {
@@ -36,7 +36,7 @@ c. Total number of records of our response of type number.</div>
     }
   ]
 }
-</script>
+</code>
 </div>
 </li>
 <li>formErrorResponse
@@ -45,7 +45,7 @@ It requires 2 inputs to be passed in this method as mentioned below:
 a. Request object of the API.
 b. Error received from the API.<div>
 <div><h5>OUTPUT:</h5>
-<script>
+<code>
 {
   "metadata": {
     "context": {
@@ -59,7 +59,7 @@ b. Error received from the API.<div>
   },
   "results": [] // empty array
 }
-</script>
+</code>
 </div>
 </li>
 </ul>
