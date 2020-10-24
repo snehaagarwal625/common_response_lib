@@ -9,6 +9,8 @@ export class ResponseHandlerService {
           const response: IResponse = this.GetBaseResponse(true, req, res, HttpStatus.OK, "GET operation successfully completed");
           if (res && res.length) {
             response.metadata.context['number_of_results'] = res.length;
+          }else {
+            response.metadata.context['number_of_results'] = 0;
           }
           if (req.query) {
             this.SetOptionalQueryParams(req, response);
