@@ -24,7 +24,7 @@ c. Total number of records of our response of type number.</div>
       "message": "human readable message associated to the status"
     },
     "links": {
-      "self": "" // URI used for this call
+      "self": "" // URL used for this call
     }
   },
   "results": [
@@ -54,7 +54,7 @@ b. Error received from the API.<div>
       "message": "human readable message associated to the status",
     },
     "links": {
-      "self": "", // URI used for this call }
+      "self": "", // URL used for this call }
     }
   },
   "results": [] // empty array
